@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class ColeccionNoEncontradaException {
+public class ColeccionNoEncontradaException extends Exception {
+    public ColeccionNoEncontradaException(String mensaje) {
+        super(mensaje);
+    }
 }

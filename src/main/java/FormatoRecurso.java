@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public enum FormatoRecurso {
+public enum FormatoRecurso {
+    VIDEO, AUDIO, PDF;
 }

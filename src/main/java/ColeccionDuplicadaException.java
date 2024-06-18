@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class ColeccionDuplicadaException {
+public class ColeccionDuplicadaException extends Exception {
+    public ColeccionDuplicadaException(String mensaje) {
+        super(mensaje);
+    }
 }

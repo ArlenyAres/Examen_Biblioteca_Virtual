@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public enum NivelAcceso {
+public enum NivelAcceso {
+    PUBLICO, PRIVADO, RESTRINGIDO;
 }
